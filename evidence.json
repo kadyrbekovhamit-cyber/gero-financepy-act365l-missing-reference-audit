@@ -1,0 +1,47 @@
+{
+  "released_distribution": "financepy==1.0.1",
+  "released_wheel_sha256": "110e784122f485ae207239f44af473334f418d81bcbb958f5eda4e76956feca5",
+  "released_day_count_source_sha256": "da564a6105eecde08b0f302b715a76fd5798e46b565409c2b5fb7de897ed70a7",
+  "upstream_base_commit": "2b9227fea9d832c4033421d6cd53a54316414fca",
+  "upstream_base_day_count_blob": "7865ebeb7b21e768af92d416a597c62b68f3caf0",
+  "correction_commit": "a93243c4982dc77432d3405d478c34998e0f04a6",
+  "correction_day_count_blob": "e0414fd2bd7a9cd6ce509eb030b1b76d07e7cede",
+  "synthetic_case": {
+    "start": "2023-12-01",
+    "end": "2024-03-01",
+    "frequency": "annual",
+    "dt3": null,
+    "actual_days": 91,
+    "expected_denominator": 366,
+    "expected_fraction": 0.24863387978142076
+  },
+  "released": {
+    "exception_type": "AttributeError",
+    "exception_message": "'NoneType' object has no attribute 'excel_dt'",
+    "explicit_dt3_control": [0.24863387978142076, 91.0, 366]
+  },
+  "validation": {
+    "focused_tests": 11,
+    "complete_unit_tests": 959,
+    "complete_unit_warnings": 4,
+    "mutation_reproduces_exception": true,
+    "explicit_reference_end_semantics_preserved": true,
+    "official_upstream_ci": {
+      "unit_test_action": "success",
+      "regression_tests": "success"
+    }
+  },
+  "duplicate_search": {
+    "scope": "bounded GitHub issue and pull-request search in domokane/FinancePy",
+    "queries": [
+      "ACT_365L",
+      "ACT/365L",
+      "day_count dt3",
+      "leap denominator"
+    ],
+    "matching_reports": 0,
+    "worldwide_priority_claim": false
+  },
+  "upstream_pr": "https://github.com/domokane/FinancePy/pull/259",
+  "scope": "Synthetic library-level reproduction only; no deployment or customer-loss claim."
+}
