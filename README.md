@@ -89,7 +89,7 @@ loss, or a production deployment.
 ## Sources
 
 - [FinancePy 1.0.1 on PyPI](https://pypi.org/project/financepy/1.0.1/)
-- [Released FinancePy implementation](https://github.com/domokane/FinancePy/blob/V1.1.2/financepy/utils/day_count.py)
+- [Current tagged FinancePy implementation](https://github.com/domokane/FinancePy/blob/V1.1.2/financepy/utils/day_count.py)
 - [FinancePy correction PR #259](https://github.com/domokane/FinancePy/pull/259)
 - [OpenGamma Strata Act/365L documentation](https://strata.opengamma.io/day_counts/)
 - [OpenGamma Strata implementation](https://github.com/OpenGamma/Strata/blob/main/modules/basics/src/main/java/com/opengamma/strata/basics/date/StandardDayCounts.java)
